@@ -1,0 +1,323 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**********STATIC COLORS**********/
+:root {
+  --black: #000000;
+  --white: #fff;
+  --secondary: #e5a72e;
+  --error: #ff2626;
+  --success: #11d342;
+  hyphens: auto;
+}
+/**********STATIC COLORS**********/
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Setting background color for content overscrolling*/
+body {
+  background-color: var(--white);
+}
+
+/* Hide Scrollbar in Google Chrome Browser */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main-padding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.main-padding-vertical {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flow-text {
+  font-size: 1rem;
+}
+
+.subline-text {
+  font-size: 1.1rem;
+}
+
+.head-text {
+  font-size: 1.7rem;
+}
+
+.navi {
+  z-index: 50 !important;
+}
+
+.dropdown-parent:hover .dropdown-child {
+  opacity: 1;
+}
+
+.dropdown-child:hover .dropdown-parent > div {
+  background-color: #f3f4f5;
+}
+
+.custom-btn:hover .discord-icon {
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  10% {
+    transform: rotateZ(-10deg);
+  }
+  20% {
+    transform: rotateZ(20deg);
+  }
+  30% {
+    transform: rotateZ(190deg);
+  }
+  40% {
+    transform: rotateZ(430deg);
+  }
+  50% {
+    transform: rotateZ(560deg);
+  }
+  60% {
+    transform: rotateZ(720deg);
+  }
+  70% {
+    transform: rotateZ(780deg);
+  }
+  100% {
+    transform: rotateZ(720deg);
+  }
+}
+
+@layer utilities {
+  @media only screen and (max-width: 768px) and (min-height: 690px) {
+  }
+
+  @media only screen and (max-width: 768px) and (min-height: 800px) {
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .main-padding {
+      padding-left: 80px !important;
+      padding-right: 80px !important;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    .main-padding {
+      padding-left: 134px !important;
+      padding-right: 134px !important;
+    }
+  }
+
+  @media only screen and (min-width: 1366px) {
+  }
+
+  @media only screen and (min-width: 1440px) {
+  }
+
+  @media only screen and (min-width: 1536px) {
+  }
+
+  @media only screen and (min-width: 1600px) {
+  }
+
+  @media only screen and (min-width: 1920px) {
+    .flow-text,
+    .subline-text {
+      font-size: 1.5rem !important;
+    }
+    .head-text {
+      font-size: 1.9rem !important;
+    }
+    .main-padding {
+      padding-left: 150px !important;
+      padding-right: 150px !important;
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    .main-padding {
+      padding-left: 300px !important;
+      padding-right: 300px !important;
+    }
+
+    .head-text {
+      font-size: 2.3rem !important;
+    }
+
+    .flow-text {
+      font-size: 1.5rem !important;
+    }
+  }
+
+  @media only screen and (min-width: 3440px) {
+    .main-padding {
+      padding-left: 600px !important;
+      padding-right: 600px !important;
+    }
+  }
+
+  a {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    color: var(--secondary);
+  }
+
+  .imprint h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+
+  .imprint h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  .imprint h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 30px 0;
+  }
+
+  .imageContainer > span {
+    position: unset !important;
+  }
+
+  .image_ {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+
+  /*!
+* Hamburgers
+* @description Tasty CSS-animated hamburgers
+* @author Jonathan Suh @jonsuh
+* @site https://jonsuh.com/hamburgers
+* @link https://github.com/jonsuh/hamburgers
+*/
+
+  .hamburger {
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+  }
+  .hamburger:hover {
+    opacity: 1;
+  }
+  .hamburger.is-active:hover {
+    opacity: 1;
+  }
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    background-color: var(--black) !important;
+  }
+
+  .hamburger-box {
+    width: 35px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+  }
+  .hamburger-inner,
+  .hamburger-inner::before,
+  .hamburger-inner::after {
+    width: 35px;
+    height: 2px;
+    background-color: var(--black);
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+  }
+  .hamburger-inner::before,
+  .hamburger-inner::after {
+    content: "";
+    display: block;
+  }
+  .hamburger-inner::before {
+    top: -10px;
+  }
+  .hamburger-inner::after {
+    bottom: -10px;
+  }
+
+  /*
+* Emphatic
+*/
+  .hamburger--emphatic {
+    overflow: hidden;
+  }
+  .hamburger--emphatic .hamburger-inner {
+    transition: background-color 0.125s 0.175s ease-in;
+  }
+  .hamburger--emphatic .hamburger-inner::before {
+    left: 0;
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+      top 0.05s 0.125s linear, left 0.125s 0.175s ease-in;
+  }
+  .hamburger--emphatic .hamburger-inner::after {
+    top: 10px;
+    right: 0;
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+      top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
+  }
+  .hamburger--emphatic.is-active .hamburger-inner {
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    background-color: transparent !important;
+  }
+  .hamburger--emphatic.is-active .hamburger-inner::before {
+    left: -80px;
+    top: -80px;
+    transform: translate3d(80px, 80px, 0) rotate(45deg);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear,
+      transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .hamburger--emphatic.is-active .hamburger-inner::after {
+    right: -80px;
+    top: -80px;
+    transform: translate3d(-80px, 80px, 0) rotate(-45deg);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear,
+      transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+

@@ -1,0 +1,3082 @@
+{
+    "main_config": {
+        "gtm": "GTM-XXXXXX",
+        "storage_url": "/",
+        "cookie_name": "example_cookie_name"
+    },
+    "componentList": [
+        {
+            "name": "Header"
+        },
+        {
+            "name": "Premium"
+        },
+        {
+            "name":"ContactForm"
+        },
+        {
+            "name": "FAQ",
+            "props": {
+                "headline": "",
+                "faq_list": []
+            },
+            "props_config": {
+                "headline": {
+                    "label": "Überschrift",
+                    "type": "text"
+                },
+                "faq_list": {
+                    "label": "FAQ Liste",
+                    "type": "array",
+                    "data": [
+                        {
+                            "question": {
+                                "label": "Frage",
+                                "type": "text"
+                            },
+                            "answer": {
+                                "label": "ANTWORT AUF DIE GESTELLTE FRAGE HIER",
+                                "type": "textarea"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "LinkList",
+            "props": {
+                "headline": "",
+                "faq_list": []
+            },
+            "props_config": {
+                "headline": {
+                    "label": "Überschrift",
+                    "type": "text"
+                },
+                "faq_list": {
+                    "label": "FAQ Liste",
+                    "type": "array",
+                    "data": [
+                        {
+                            "question": {
+                                "label": "Frage",
+                                "type": "text"
+                            },
+                            "answer": {
+                                "label": "ANTWORT AUF DIE GESTELLTE FRAGE HIER",
+                                "type": "textarea"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Steps",
+            "props": {
+                "headline": "",
+                "headline_variant": "",
+                "step_list": []
+            },
+            "props_config": {
+                "headline": {
+                    "label": "Überschrift",
+                    "type": "text"
+                },
+                "headline_variant": {
+                    "label": "Überschrift SEO Tag",
+                    "type": "select",
+                    "types": "h1,h2,h3,h4,h5,h6,p"
+                },
+                "step_list": {
+                    "label": "Step Liste",
+                    "type": "array",
+                    "data": [
+                        {
+                            "icon": {
+                                "label": "Icon",
+                                "type": "media"
+                            },
+                            "step_headline": {
+                                "label": "Step Überschrift",
+                                "type": "text"
+                            },
+                            "step_description": {
+                                "label": "Step Beschreibung",
+                                "type": "textarea"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ContentRight",
+            "props": {
+                "image": "",
+                "headline": "",
+                "headline_variant": "",
+                "text": "",
+                "cta_text": "",
+                "cta_link": ""
+            },
+            "props_config": {
+                "image": {
+                    "label": "Bild",
+                    "type": "media"
+                },
+                "headline": {
+                    "label": "Überschrift",
+                    "type": "text"
+                },
+                "headline_variant": {
+                    "label": "Überschrift SEO Tag",
+                    "type": "select",
+                    "types": "h1,h2,h3,h4,h5,h6,p"
+                },
+                "text": {
+                    "label": "Textblock",
+                    "type": "textarea"
+                },
+                "cta_text": {
+                    "label": "CTA Text",
+                    "type": "text"
+                },
+                "cta_link": {
+                    "label": "CTA Link",
+                    "type": "text"
+                }
+            }
+        },
+        {
+            "name": "Products"
+        },
+        {
+            "name": "Footer"
+        },
+        {
+            "name": "Imprint"
+        },
+        {
+            "name": "Policy"
+        },
+        {
+            "name": "Help",
+            "props": {
+                "image": "/images/image.png",
+                "headline": "",
+                "headline_variant": "",
+                "text": "",
+                "cta_text": "",
+                "cta_link": ""
+            },
+            "props_config": {
+                "image": {
+                    "label": "Bild",
+                    "type": "media"
+                },
+                "headline": {
+                    "label": "Überschrift",
+                    "type": "text"
+                },
+                "headline_variant": {
+                    "label": "Überschrift SEO Tag",
+                    "type": "select",
+                    "types": "h1,h2,h3,h4,h5,h6,p"
+                },
+                "text": {
+                    "label": "Textblock",
+                    "type": "textarea"
+                },
+                "cta_text": {
+                    "label": "CTA Text",
+                    "type": "text"
+                },
+                "cta_link": {
+                    "label": "CTA Link",
+                    "type": "text"
+                }
+            }
+        }
+    ],
+    "pages": [
+        {
+            "title": "Home",
+            "page_title": "Home",
+            "is_in_nav": true,
+            "href": "/",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    "name": "ContentRightNoButton",
+                    "props": {
+                        "image": "https://i.ibb.co/gRLZc1n/logo.png",
+                        "headline": "Die besten Scripts <br/> auf dem Markt!",
+                        "headline_variant": "p",
+                        "text": "Du hast keine lust mehr zu verlieren? Aber möchtest nicht gebannt werden? Dann suche dir einen unserer High Quality Scripts aus und werde besser als jeder andere! Alle Scripts sind auf die neusten exploits aktuallisiert und werden <br>täglich verbessert!<br><h3>WERDE BESSER ALS DIE ANDEREN UND BESUCHE UNSEREN SHOP!</h3>"
+                    }
+                },
+                {
+                    "name": "ContentLeftNoButton",
+                    "props": {
+                        "image": "https://i.ibb.co/Xj8TMHc/Script-Code.gif",
+                        "headline": "Die besten Scripts <br/> auf dem Markt!",
+                        "headline_variant": "p",
+                        "text": "Du hast keine lust mehr zu verlieren? Aber möchtest nicht gebannt werden? Dann suche dir einen unserer High Quality Scripts aus und werde besser als jeder andere! Alle Scripts sind auf die neusten exploits aktuallisiert und werden <br>täglich verbessert!<br><h3>WERDE BESSER ALS DIE ANDEREN UND BESUCHE UNSEREN SHOP!</h3>"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "FAQ",
+            "page_title": "FAQ",
+            "is_in_nav": true,
+            "href": "/faq",
+            "children": [
+                {
+                    "title": "Script Setup",
+                    "name": "Eigener Script",
+                    "href": "/script-setup"
+                },
+                {
+                    "title": "Script Erklärung",
+                    "name": "Warzone Scipts",
+                    "href": "/script-erklärung"
+                },
+                {
+                    "title": "Adapter Setup",
+                    "name": "GTA Scripts",
+                    "href": "/adapter-setup"
+                }
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    
+                        "name": "LinkList",
+                        "props": {
+                            "headline": "<br></br>Welche FAQ möchtest du Lesen?",
+                            "faq_list": [
+                                {
+                                    "question": "Script Setup",
+                                    "href": "/script-setup"
+                                },
+                                {
+                                    "question": "Script Erklärung",
+                                    "href": "script-erklärung"
+                                },
+                                {
+                                    "question": "Adapter Setup",
+                                    "href": "adapter-setup"
+                                }
+                            ]
+                        },
+                        "index": 8,
+                        "render": {},
+                        "id": "componenent-f79463fe-101d-4380-b6f5-b368edee1079"
+                    
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Script Setup",
+            "page_title": "Script Setup",
+            "is_in_nav": false,
+            "href": "/script-setup",
+            "children": [
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    
+                        "name": "FAQ",
+                        "props": {
+                            "headline": "<br></br>Hier findest du Antworten auf alle fragen wie du deinen Script einstellst.",
+                            "faq_list": [
+                                {
+                                    "question": "Kann ich gebannt werden?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Ist ein Unlock All strafbar?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Wie erhalte ich meine Artikel?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Wie lange dauert die Lieferung?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Kann ich meinen Kauf wiederrufen?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                }
+                            ]
+                        },
+                        "index": 8,
+                        "render": {},
+                        "id": "componenent-f79463fe-101d-4380-b6f5-b368edee1079"
+                    
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Script Erklärung",
+            "page_title": "Script Erklärung",
+            "is_in_nav": false,
+            "href": "/script-erklärung",
+            "children": [
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    
+                        "name": "FAQ",
+                        "props": {
+                            "headline": "<br></br>Hier findest du Antworten auf alle fragen wie ein Script und deine Funktionen, Funktionieren.",
+                            "faq_list": [
+                                {
+                                    "question": "Kann ich gebannt werden?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Ist ein Unlock All strafbar?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Wie erhalte ich meine Artikel?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Wie lange dauert die Lieferung?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Kann ich meinen Kauf wiederrufen?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                }
+                            ]
+                        },
+                        "index": 8,
+                        "render": {},
+                        "id": "componenent-f79463fe-101d-4380-b6f5-b368edee1079"
+                    
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Adapter Setup",
+            "page_title": "Adapter Setup",
+            "is_in_nav": false,
+            "href": "/adapter-setup",
+            "children": [
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    
+                        "name": "FAQ",
+                        "props": {
+                            "headline": "<br></br>Hier findest du Antworten auf alle fragen wie du deinen Adapter richtig verbindest und benutzt.",
+                            "faq_list": [
+                                {
+                                    "question": "Kann ich gebannt werden?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Ist ein Unlock All strafbar?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Wie erhalte ich meine Artikel?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Wie lange dauert die Lieferung?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                },
+                                {
+                                    "question": "Kann ich meinen Kauf wiederrufen?",
+                                    "answer": "ANTWORT AUF DIE GESTELLTE FRAGE HIER"
+                                }
+                            ]
+                        },
+                        "index": 8,
+                        "render": {},
+                        "id": "componenent-f79463fe-101d-4380-b6f5-b368edee1079"
+                    
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "How To",
+            "page_title": "How To",
+            "is_in_nav": true,
+            "href": "/how-to",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Help",
+                    "props": {
+                        "image": "https://i.ibb.co/HgRhgpJ/fragezeichen.gif",
+                        "headline": "Wie funktioniert das hier?",
+                        "headline_variant": "p"
+                    }
+                },
+                {
+                    "name": "Steps",
+                    "props": {
+                        "headline": "Folge dieser Anleitung",
+                        "headline_variant": "p",
+                        "step_list": [
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "FAQ Lesen",
+                                "step_description": "<p>Lies dir unsere FAQ durch bevor du einen Script erwirbst!</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Produkt Auswählen",
+                                "step_description": "<p>Wähle dein Produkt im SHOP zwischen unseren ganzen Versionen aus.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Produkt Wunsch erstellen",
+                                "step_description": "<p>Beschreibe deinen Script über unsere Vorlage wenn du einen Custom Script willst.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Mitarbeiter kontaktieren",
+                                "step_description": "<p>Kontaktiere uns über die Kontaktmöglichkeiten.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Detailierte Angaben geben",
+                                "step_description": "<p>Teile uns mit welches Produkt du haben möchtest.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Produkt bezahlen",
+                                "step_description": "<p>Bezahle den gegebenen Preis mit der Besprochenen Zahlungsart.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Script wird erstellt",
+                                "step_description": "<p>Dein Script wird nun erstellt und für dich personalisiert.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Produkt erhalten",
+                                "step_description": "<p>Das Produkt wird an dich über das gewählte Kontakt format versendet.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Feedback hinterlassen",
+                                "step_description": "<p>Wir würden uns über ein Feedback freuen um unsere Qualitäten zu verbessern.</p>"
+                            },
+                            {
+                                "icon": "IoPersonAddOutline",
+                                "step_headline": "Zugriff zur Premium Seite",
+                                "step_description": "<p>Hier erhalten manche Käufer alle Versionen gratis! Die Käufer werden zufällig ausgewählt.</p>"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Produkte",
+            "page_title": "Produkte",
+            "is_in_nav": true,
+            "href": "/produkte",
+            "children": [
+                {
+                    "title": "Eigener Script",
+                    "name": "Eigener Script",
+                    "href": "/eigener-script"
+                },
+                {
+                    "title": "Warzone Scipts",
+                    "name": "Warzone Scipts",
+                    "href": "/shop"
+                },
+                {
+                    "title": "GTA Scripts",
+                    "name": "GTA Scripts",
+                    "href": "/gta-scripts"
+                }
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": []
+        },
+        {
+            "title": "Warzone Unlock All",
+            "page_title": "Warzone Unlock All",
+            "is_in_nav": false,
+            "href": "/warzone-unlock-all",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": []
+        },
+        {
+            "title": "Warzone Cronus",
+            "page_title": "Warzone Cronus",
+            "is_in_nav": false,
+            "href": "/warzone-cronus",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": []
+        },
+        {
+            "title": "Warzone Titan",
+            "page_title": "Warzone Titan",
+            "is_in_nav": false,
+            "href": "/warzone-titan",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": []
+        },
+        {
+            "title": "Shop",
+            "page_title": "Shop",
+            "is_in_nav": true,
+            "href": "/shop",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Products",
+                    "id": "componenent-0f3881fe-4f7b-4946-bfb0-b10faaf85452"
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Kontakt",
+            "page_title": "Kontakt",
+            "is_in_nav": true,
+            "href": "/kontakt",
+            "children": [
+                {
+                    "title": "Discord",
+                    "name": "Discord",
+                    "href": "/discord"
+                },
+                {
+                    "title": "WhatsApp",
+                    "name": "WhatsApp",
+                    "href": "/whatsapp"
+                }
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    
+                        "name": "LinkList",
+                        "props": {
+                            "headline": "<br></br>Wie möchtest du uns Kontaktieren?",
+                            "faq_list": [
+                                {
+                                    "question": "Whatsapp",
+                                    "href": "/whatsapp"
+                                },
+                                {
+                                    "question": "Discord",
+                                    "href": "/discord"
+                                }
+                            ]
+                        },
+                        "index": 8,
+                        "render": {},
+                        "id": "componenent-f79463fe-101d-4380-b6f5-b368edee1079"
+                    
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Discord",
+            "page_title": "Discord",
+            "is_in_nav": false,
+            "href": "/discord",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Header"
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "WhatsApp",
+            "page_title": "WhatsApp",
+            "is_in_nav": false,
+            "href": "/whatsapp",
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    "name": "ContentRight",
+                    "props": {
+                        "image": "https://i.ibb.co/XW78J3n/whatsapp-icon-vector.png",
+                        "headline": "Kontaktiere uns <br/> auf Whatsapp",
+                        "headline_variant": "p",
+                        "text": "Du möchtest Persönlichen Support um mehr über unsere Produkte zu erfahren oder um ANTWORT AUF DIE GESTELLTE FRAGE HIERen zu Fragen zu erhalten die nicht in unserer FAQ geklärt sind oder einen Custom Script erwerben dann kontaktiere uns Gerne auf WhatsApp.",
+                        "cta_text": "+49 1521  3647487",
+                        "cta_link": "www.youtube.com"
+                    }
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Impressum",
+            "page_title": "Impressum",
+            "is_in_nav": false,
+            "href": "/impressum",
+            "components": [
+                {
+                    "name": "Imprint"
+                }
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "title": "Datenschutzerklärung",
+            "page_title": "Datenschutzerklärung",
+            "is_in_nav": false,
+            "href": "/datenschutz",
+            "components": [
+                {
+                    "name": "Policy"
+                }
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ]
+        }
+    ]
+}
